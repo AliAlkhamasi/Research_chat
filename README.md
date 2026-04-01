@@ -2,6 +2,9 @@
 
 Multiagent RAG application that lets you upload any PDF or text file and ask questions about it. Built with a three agent pipeline where each agent has its own tool use loop, not just wrapper calls around an LLM.
 
+![Research Chat](images/research1.png)
+![Research Chat](images/research2.png)
+
 ## How it works
 
 You upload documents. They get chunked and embedded locally with sentence-transformers. When you ask a question, three agents work together to produce the answer:
